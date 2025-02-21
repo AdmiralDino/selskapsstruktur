@@ -1,0 +1,16 @@
+---
+layout: default
+title: Company Structure Visualization
+---
+
+<h1>Company Structure Visualization</h1>
+
+<form id="company-form">
+    <label for="company-data">Enter company structure JSON:</label><br>
+    <textarea id="company-data" rows="6" cols="50"></textarea><br>
+    <button type="button" onclick="generateChart()">Generate Chart</button>
+</form>
+
+<div id="chart"></div>
+
+<script src="{{ site.baseurl }}/assets/js/company-structure.js"></script>
